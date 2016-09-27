@@ -1,1 +1,20 @@
+sudo apt update && upgrade -y
+sudo apt-get upgrade-dist
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+sudo apt-get update
+sudo apt install gdebi gufw nmap htop laptop-mode-tools elementary-tweaks vlc firefox rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina remmina-plugin-rdp libfreerdp-plugins-standard                                                                    
 
+
+#####System76 Driver
+sudo apt-add-repository ppa:system76-dev/stable
+sudo apt update
+sudo apt install system76-driver
+
+
+########Disable System Crash Reports###########
+sudo gedit /etc/default/apport
+######Now text file will open, In the last line you will see "enabled=1" change it to "enabled=0". Save and close file.
+Now enter following command in terminal to stop apport service:#######
+sudo service apport stop
