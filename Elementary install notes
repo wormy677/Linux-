@@ -24,3 +24,11 @@ sudo service apport stop
 
 ###Screenfetch###
 .bashrc    screenfetch frist line
+
+
+
+######Disable guest####
+gksu scratch /etc/lightdm/lightdm.conf
+allow-guest=false
+reboot
+
