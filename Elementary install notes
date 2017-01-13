@@ -2,6 +2,8 @@
 
 sudo apt update && upgrade -y
 sudo apt-get upgrade-dist
+gsettings set org.gnome.mutter overlay-key "'Super_L'"
+gsettings set org.pantheon.desktop.gala.behavior overlay-action "'wingpanel --toggle-indicator=app-launcher'"
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt-add-repository ppa:system76-dev/stable
