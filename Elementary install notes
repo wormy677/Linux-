@@ -6,9 +6,10 @@ gsettings set org.gnome.mutter overlay-key "'Super_L'"
 gsettings set org.pantheon.desktop.gala.behavior overlay-action "'wingpanel --toggle-indicator=app-launcher'"
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo add-apt-repository ppa:libretro/testing
 sudo apt-add-repository ppa:system76-dev/stable
 sudo apt-get update
-sudo apt install gdebi gufw guake nmap screenfetch htop laptop-mode-tools elementary-tweaks vlc firefox rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina screenfetch system76-driver                                                                  
+sudo apt install gdebi gufw guake nmap screenfetch retroarch htop laptop-mode-tools elementary-tweaks vlc firefox rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina homebank system76-driver -y                    
 
 
 #####System76 Driver######
