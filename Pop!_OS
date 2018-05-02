@@ -1,0 +1,28 @@
+###Main install### 
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:system76-dev/stable
+sudo apt install gdebi gufw guake nmap neofetch gimp inkscape htop laptop-mode-tools vlc firefox rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina system76-driver -y
+#####System76 Driver######
+sudo apt-add-repository ppa:system76-dev/stable
+sudo apt update
+sudo apt install system76-driver
+
+
+########Disable System Crash Reports###########
+sudo gedit /etc/default/apport
+######Now text file will open, In the last line you will see "enabled=1" change it to "enabled=0". Save and close file.
+Now enter following command in terminal to stop apport service:#######
+sudo service apport stop
+
+
+
+###Neofetch###
+.bashrc    neofetch frist line
+
+
+
+######Disable guest####
+gksu scratch /etc/lightdm/lightdm.conf
+allow-guest=false
+reboot
