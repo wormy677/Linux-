@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:system76-dev/stable
-sudo apt install gdebi gufw guake nmap neofetch gimp inkscape htop laptop-mode-tools vlc firefox rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina system76-driver -y
+sudo apt install gdebi gufw guake nmap neofetch gimp steam inkscape htop laptop-mode-tools vlc atom rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip transmission ubuntu-restricted-extras libreoffice chromium-browser remmina system76-driver -y
 #####System76 Driver######
 sudo apt-add-repository ppa:system76-dev/stable
 sudo apt update
